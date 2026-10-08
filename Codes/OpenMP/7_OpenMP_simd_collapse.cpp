@@ -10,7 +10,7 @@
 // (-march=native lets the compiler use the widest vector instructions of
 // YOUR processor, e.g. AVX2 or AVX-512, instead of the old SSE2 baseline)
 
-
+ 
 // ---------------------------------------------------------------
 // PART 1 : simd -> vectorizing a reduction
 // ---------------------------------------------------------------

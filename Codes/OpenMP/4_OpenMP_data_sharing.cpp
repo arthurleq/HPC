@@ -11,7 +11,7 @@
 // copy, seen by every thread) or PRIVATE (one copy per thread). Getting
 // this right is THE most important skill in OpenMP : most OpenMP bugs
 // are a variable that is shared when it should be private.
-//
+// 
 // The default rules :
 //   - variables declared OUTSIDE the region            -> shared
 //   - variables declared INSIDE the region             -> private

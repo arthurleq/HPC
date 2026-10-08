@@ -22,7 +22,7 @@ int collatz_steps(long start) {
     }
     return steps;
 }
-
+ 
 // fill the table with collatz_steps(i+1) for i in [0, n)
 // DEFAULT schedule = static, no chunk size specified
 // -> the iteration space is cut into P contiguous blocks (P = number

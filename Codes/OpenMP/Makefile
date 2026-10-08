@@ -5,7 +5,7 @@
 # The compiler and the flags can be changed from the command line, e.g.
 #   make CXX=clang++
 #   make CXXFLAGS="-O3 -march=native"
-
+ 
 CXX      ?= g++
 CXXFLAGS ?= -O2 -std=c++17 -Wall -Wextra
 OMPFLAGS ?= -fopenmp

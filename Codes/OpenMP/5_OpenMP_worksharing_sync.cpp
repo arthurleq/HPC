@@ -13,7 +13,7 @@
 // constructs (single, sections) and SYNCHRONIZATION constructs (barrier,
 // nowait, master, ordered, locks).
 
-
+ 
 // ---------------------------------------------------------------
 // PART 1 : single, barrier and nowait -> a parallel prefix sum
 // ---------------------------------------------------------------

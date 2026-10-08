@@ -14,7 +14,7 @@ void create_table(int n, int* table) {
         table[i] = i; 
     }
 }
-
+ 
 // fuction for the sum of the table elements
 // without any protection (not thread-safe)
 long sum_table_unprotected(int n, int* table) {

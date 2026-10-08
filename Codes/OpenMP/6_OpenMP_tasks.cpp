@@ -15,7 +15,7 @@
 // For them, OpenMP 3.0 introduced TASKS : a task is a piece of work
 // (code + its data) that a thread packages and puts in a pool ; any
 // thread of the team can then pick it up and execute it, now or later.
-//
+// 
 // The usual pattern :
 //   #pragma omp parallel        -> creates the team of threads
 //   #pragma omp single          -> ONE thread creates the tasks...

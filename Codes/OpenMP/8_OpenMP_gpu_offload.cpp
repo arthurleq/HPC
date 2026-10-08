@@ -3,7 +3,7 @@
 
 // initialisation of OpenMP environment variables
 #include <omp.h>
-
+ 
 // Since version 4.0, OpenMP can also OFFLOAD computations to an
 // accelerator (a GPU, most of the time). It needs a compiler built with
 // offloading support for your GPU :

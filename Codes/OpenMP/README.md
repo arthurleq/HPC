@@ -3,7 +3,7 @@
 OpenMP is the programming model associated with **shared memory**: an API (compiler directives, a small runtime library and a few environment variables) to program this kind of architecture in C, C++ and Fortran.
 The principle is to create several **threads** that work in parallel inside a single process, all of them seeing the same memory.
 For example, when working on a loop, its iterations can be shared among several threads.
-
+ 
 Its main strength is to be **incremental**: you start from a working sequential code and add `#pragma omp ...` directives where the time is spent. A compiler without OpenMP support simply ignores the pragmas, and the code remains a valid sequential program.
 
 The goal of this folder is to explain how OpenMP works in practice: each C++ file below illustrates one aspect of OpenMP with heavily commented code, and this README explains the concepts, what you should observe when running each program, and how to compile it. The theory behind it (Flynn's taxonomy, memory architectures, NUMA, Amdahl's law) is covered in [`HPC_fr.pdf`](../../HPC_fr.pdf) (in French).
