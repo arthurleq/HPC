@@ -5,7 +5,7 @@
 
 // nvc++ -acc -Minfo=accel -O2 4_OpenACC_reductions_atomics.cpp -o 4_OpenACC_reductions_atomics
 // g++ -fopenacc -O2 4_OpenACC_reductions_atomics.cpp -o 4_OpenACC_reductions_atomics
-
+ 
 // Thousands of GPU threads updating the same variable : the problem of
 // example 1 of the OpenMP folder, with the same two answers :
 //   - reduction(op:var) when the result is ONE value combined with an

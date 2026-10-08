@@ -3,7 +3,7 @@
 #include <cmath>
 #include <chrono>
 #include <cstdlib>
-
+ 
 // nvc++ -acc -Minfo=accel -O2 3_OpenACC_loop_parallelism.cpp -o 3_OpenACC_loop_parallelism
 // g++ -fopenacc -O2 3_OpenACC_loop_parallelism.cpp -o 3_OpenACC_loop_parallelism
 // ./3_OpenACC_loop_parallelism [N]      (N x N matrices, default 512 ; try 4096 on a GPU)

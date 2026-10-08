@@ -2,7 +2,7 @@
 #include <iomanip>
 #include <algorithm>
 #include <chrono>
-
+ 
 // nvc++ -acc -Minfo=accel -O2 2_OpenACC_data_management.cpp -o 2_OpenACC_data_management
 // g++ -fopenacc -O2 2_OpenACC_data_management.cpp -o 2_OpenACC_data_management
 // With nvc++, NV_ACC_NOTIFY=2 ./2_OpenACC_data_management prints every

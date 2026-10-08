@@ -3,7 +3,7 @@
 OpenACC is a **directive-based** programming model for **accelerators**, GPUs most of the time. Like OpenMP, you start from a sequential C, C++ or Fortran code and annotate its loops with `#pragma acc ...`; a compiler without OpenACC support ignores them and the program remains a valid sequential program.
 
 The difference is in the spirit. OpenACC is **descriptive**: you describe *what* is parallel, and the compiler decides *how* to map it on the hardware (a GPU, or the cores of a CPU, from the same source code). OpenMP is **prescriptive**: you tell exactly what to do. In practice, porting a code to a GPU with OpenACC comes down to three questions, which structure this folder:
-
+ 
 1. **Parallelism**: which loops run on the device (`kernels`, `parallel loop`)?
 2. **Data**: the GPU has its own memory — what must be copied, and when? *This is where the performance is won or lost.*
 3. **Mapping**: how are the iterations spread over the levels of parallelism of the hardware (`gang`, `worker`, `vector`)?

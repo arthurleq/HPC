@@ -6,7 +6,7 @@
 
 // nvc++ -acc -Minfo=accel -O2 6_OpenACC_heat_2D.cpp -o 6_OpenACC_heat_2D
 // g++ -fopenacc -O2 6_OpenACC_heat_2D.cpp -o 6_OpenACC_heat_2D
-
+ 
 // Heat diffusion in a square plate : EXACTLY the problem solved with MPI
 // in ../MPI/7_MPI_heat_2D.cpp (a hot disk in the middle of a cold plate
 // whose borders are kept at 0, explicit finite differences), this time on

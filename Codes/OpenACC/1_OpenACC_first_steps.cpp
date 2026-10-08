@@ -5,7 +5,7 @@
 #ifdef _OPENACC
 #include <openacc.h>
 #endif
-
+ 
 // NVIDIA GPU (NVIDIA HPC SDK, the reference OpenACC compiler) :
 //   nvc++ -acc -Minfo=accel -O2 1_OpenACC_first_steps.cpp -o 1_OpenACC_first_steps
 // multicore CPU, same code :

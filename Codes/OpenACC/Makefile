@@ -8,7 +8,7 @@
 #   make COMPILER=nvhpc TARGET=multicore   nvc++ -acc=multicore : all the CPU cores
 #   make COMPILER=gcc                      g++ -fopenacc        : GPU only if gcc was
 #                                          built with offloading, a single CPU thread otherwise
-
+ 
 ifeq ($(shell command -v nvc++ 2> /dev/null),)
   COMPILER ?= gcc
 else
