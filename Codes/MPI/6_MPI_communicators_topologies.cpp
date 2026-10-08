@@ -7,7 +7,7 @@
 // mpic++ -O2 6_MPI_communicators_topologies.cpp -o 6_MPI_communicators_topologies
 // mpirun -np 6 --oversubscribe ./6_MPI_communicators_topologies
 // (--oversubscribe : allows more processes than cores, fine for this demo)
-
+ 
 // A COMMUNICATOR is a group of processes plus a private "context" : the
 // messages of one communicator can never be mixed up with the messages of
 // another one. MPI_COMM_WORLD contains every process, but new

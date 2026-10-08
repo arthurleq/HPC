@@ -9,7 +9,7 @@ CXXFLAGS ?= -O2 -std=c++17 -Wall -Wextra
 # skip the old C++ bindings of MPI (deprecated, removed from the standard
 # since MPI-3) : these examples use the C API, which is what C++ codes use
 CPPFLAGS += -DOMPI_SKIP_MPICXX -DMPICH_SKIP_MPICXX
-
+ 
 SOURCES  := $(wildcard *.cpp)
 PROGRAMS := $(SOURCES:.cpp=)
 

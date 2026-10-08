@@ -8,7 +8,7 @@
 
 // mpic++ -O2 4_MPI_collectives.cpp -o 4_MPI_collectives
 // mpirun -np 4 ./4_MPI_collectives
-
+ 
 // A COLLECTIVE operation involves ALL the processes of a communicator :
 // every process must call the same collective, in the same order (if one
 // process skips it, the others wait forever). Collectives are implemented

@@ -12,7 +12,7 @@
 // then read it (MPI_Get), write it (MPI_Put) or update it (MPI_Accumulate)
 // directly, WITHOUT the target process taking part : no matching receive.
 // It maps well on the RDMA capabilities of HPC networks (InfiniBand...).
-//
+// 
 //     two-sided (Send/Recv)                one-sided (Put/Get)
 //   origin          target              origin          target
 //   Send  ------->  Recv                Put   ------->  [window]   (target does nothing)

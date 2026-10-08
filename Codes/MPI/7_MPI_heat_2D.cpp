@@ -8,7 +8,7 @@
 
 // mpic++ -O2 7_MPI_heat_2D.cpp -o 7_MPI_heat_2D
 // mpirun -np 4 ./7_MPI_heat_2D
-
+ 
 // Heat diffusion in a square plate : a hot disk (100 degrees) in the
 // middle of a cold plate (0 degrees), whose borders are kept at 0. At each
 // time step, every cell moves towards the average of its 4 neighbours

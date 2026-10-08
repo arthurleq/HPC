@@ -1,7 +1,7 @@
 # MPI — Message Passing Interface
 
 MPI is the programming model associated with **distributed memory**: a standard that lets several **processes** cooperate by exchanging **messages**. Each process has its own private memory, possibly on a different machine (a *node* of a cluster): no variable is shared, and every piece of data that another process needs must be sent to it explicitly.
-
+ 
 Its main advantage is **scalability**: to get more computing power you add nodes, and each new node brings more cores *and* more memory. That is why all the large simulation codes running on supercomputers use MPI, often combined with OpenMP or a GPU model inside each node. MPI is a library (functions `MPI_*`), not a language extension; the main implementations are Open MPI, MPICH and their derivatives (Intel MPI, MVAPICH, Cray MPICH). Although it was designed for distributed memory, MPI works perfectly well inside a single machine: the processes of a node then exchange their messages through shared memory, which is how the examples of this folder run on a laptop.
 
 All the programs follow the **SPMD** model (Single Program, Multiple Data): `mpirun -np 4 ./program` starts 4 copies of the same program, and each copy uses its number, its **rank**, to decide what to do and on which part of the data.

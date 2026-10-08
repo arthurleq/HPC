@@ -9,7 +9,7 @@
 // (Linux / glibc only, see also ../OpenMP/3_OpenMP_numa_affinity.cpp)
 #ifdef __linux__
 #include <sched.h>
-#endif
+#endif 
 
 // mpic++ -fopenmp -O2 9_MPI_hybrid_OpenMP.cpp -o 9_MPI_hybrid_OpenMP
 // OMP_NUM_THREADS=2 mpirun -np 2 --map-by slot:PE=2 ./9_MPI_hybrid_OpenMP

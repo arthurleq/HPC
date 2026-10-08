@@ -8,7 +8,7 @@
 // mpic++ -O2 2_MPI_point_to_point.cpp -o 2_MPI_point_to_point
 // mpirun -np 4 ./2_MPI_point_to_point
 // mpirun -np 4 ./2_MPI_point_to_point deadlock     <- see part 3
-
+ 
 // A message is made of :
 //   - a BUFFER   : address, number of elements, MPI datatype (MPI_INT,
 //                  MPI_DOUBLE, MPI_CHAR...)

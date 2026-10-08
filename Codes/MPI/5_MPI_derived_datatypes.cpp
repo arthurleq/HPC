@@ -6,7 +6,7 @@
 
 // mpic++ -O2 5_MPI_derived_datatypes.cpp -o 5_MPI_derived_datatypes
 // mpirun -np 2 ./5_MPI_derived_datatypes
-
+ 
 // MPI must know the memory layout of the data it sends. So far : arrays
 // of a basic type (MPI_INT, MPI_DOUBLE...) stored contiguously.
 // DERIVED datatypes describe more complex layouts, so that non-contiguous

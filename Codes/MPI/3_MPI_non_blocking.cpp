@@ -6,7 +6,7 @@
 
 // mpic++ -O2 3_MPI_non_blocking.cpp -o 3_MPI_non_blocking
 // mpirun -np 4 ./3_MPI_non_blocking
-
+ 
 // Non-blocking communications : MPI_Isend and MPI_Irecv START a
 // communication and return IMMEDIATELY, with a "request" that represents
 // the communication in progress. Until the request is completed, the

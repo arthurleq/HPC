@@ -5,7 +5,7 @@
 #include <mpi.h>
 
 // mpic++ -O2 1_MPI_hello_world.cpp -o 1_MPI_hello_world
-// mpirun -np 4 ./1_MPI_hello_world
+// mpirun -np 4 ./1_MPI_hello_world 
 
 // MPI (Message Passing Interface) is the standard of DISTRIBUTED memory
 // programming. mpirun launches N copies of the SAME program : N separate
