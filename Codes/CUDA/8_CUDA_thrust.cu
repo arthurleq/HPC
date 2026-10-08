@@ -18,7 +18,7 @@
 #include <thrust/transform_reduce.h>
 
 // nvcc -O3 -arch=native 8_CUDA_thrust.cu -o 8_CUDA_thrust
-// ./8_CUDA_thrust
+// ./8_CUDA_thrust 
 
 // THRUST is to CUDA what the STL is to C++ : containers and algorithms
 // (transform, reduce, sort, scan, count...) that run on the GPU, without

@@ -6,7 +6,7 @@
 
 #include <cuda_runtime.h>
 
-// nvcc -O3 -arch=native 2_CUDA_vector_add.cu -o 2_CUDA_vector_add
+// nvcc -O3 -arch=native 2_CUDA_vector_add.cu -o 2_CUDA_vector_add 
 // ./2_CUDA_vector_add
 
 // The complete life cycle of a CUDA program, on the simplest example :

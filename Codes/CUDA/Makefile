@@ -9,7 +9,7 @@
 #   make CUDA_ARCH=sm_90     # H100
 #   make CUDA_ARCH=sm_86     # RTX 30xx, A40...
 #   make CUDA_ARCH=sm_89     # RTX 40xx, L40...
-
+ 
 NVCC      ?= nvcc
 CUDA_ARCH ?= native
 NVCCFLAGS ?= -O3 -std=c++17 -arch=$(CUDA_ARCH)

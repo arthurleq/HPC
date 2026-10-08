@@ -6,8 +6,9 @@
 
 // nvcc -O3 -arch=native 1_CUDA_hello_world.cu -o 1_CUDA_hello_world
 // ./1_CUDA_hello_world
-// (-arch=native compiles for the GPU of this machine ; on a cluster, give
-// the architecture explicitly, e.g. -arch=sm_80 for an A100, sm_90 for an H100)
+
+// -arch=native compiles the GPU on a classical desktop or laptop
+// on a cluster, give the architecture explicitly, e.g. -arch=sm_80 for an A100, sm_90 for an H100
 
 // CUDA ("Compute Unified Device Architecture") is NVIDIA's platform to
 // program its GPUs. Unlike OpenACC, nothing is automatic : the programmer

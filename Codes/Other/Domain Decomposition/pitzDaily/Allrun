@@ -1,0 +1,10 @@
+#!/bin/bash
+
+. ${WM_PROJECT_DIR:?}/etc/bashrc
+. ${WM_PROJECT_DIR:?}/bin/tools/RunFunctions
+
+rm -f log.simpleFoam
+
+decomposePar -force
+
+runParallel simpleFoam

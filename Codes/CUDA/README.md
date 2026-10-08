@@ -3,7 +3,7 @@
 CUDA (*Compute Unified Device Architecture*) is NVIDIA's platform to use its GPUs for general-purpose computing. Unlike the directive-based models (OpenMP offloading, OpenACC), **nothing is automatic**: the programmer writes the functions that run on the GPU — the **kernels** —, chooses how many threads execute them, and manages the GPU memory and the transfers by hand. More work, but full control: most GPU libraries (cuBLAS, cuFFT, cuDNN...) and many HPC codes are written in CUDA, and AMD's HIP is an almost line-by-line copy of it.
 
 CUDA uses the **SIMT** model (*Single Instruction, Multiple Threads*), an extension of SIMD in Flynn's taxonomy. A kernel is executed by a **grid** of **blocks** of **threads**:
-
+ 
 ```
    grid  (all the threads of one kernel launch)
    +--------------------+--------------------+--------------------+

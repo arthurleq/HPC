@@ -5,7 +5,7 @@
 
 #include <cuda_runtime.h>
 
-// nvcc -O3 -arch=native 3_CUDA_unified_memory.cu -o 3_CUDA_unified_memory
+// nvcc -O3 -arch=native 3_CUDA_unified_memory.cu -o 3_CUDA_unified_memory 
 // ./3_CUDA_unified_memory
 
 // UNIFIED MEMORY (or "managed" memory) : cudaMallocManaged returns ONE

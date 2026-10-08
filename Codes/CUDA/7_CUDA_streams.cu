@@ -7,7 +7,7 @@
 
 #include <cuda_runtime.h>
 
-// nvcc -O3 -arch=native 7_CUDA_streams.cu -o 7_CUDA_streams
+// nvcc -O3 -arch=native 7_CUDA_streams.cu -o 7_CUDA_streams 
 // ./7_CUDA_streams
 // nsys profile ./7_CUDA_streams    shows the overlap on a timeline (Nsight Systems)
 

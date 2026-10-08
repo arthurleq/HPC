@@ -7,7 +7,7 @@
 #include <cuda_runtime.h>
 #include <cub/cub.cuh>  // CUB : the library of parallel primitives shipped with CUDA
 
-// nvcc -O3 -arch=native 6_CUDA_reduction.cu -o 6_CUDA_reduction
+// nvcc -O3 -arch=native 6_CUDA_reduction.cu -o 6_CUDA_reduction 
 // ./6_CUDA_reduction
 
 // REDUCTION : sum the 64 M integers of an array. Trivial sequentially, it

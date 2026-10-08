@@ -7,7 +7,7 @@
 
 #include <cuda_runtime.h>
 
-// nvcc -O3 -arch=native 5_CUDA_shared_memory_matmul.cu -o 5_CUDA_shared_memory_matmul
+// nvcc -O3 -arch=native 5_CUDA_shared_memory_matmul.cu -o 5_CUDA_shared_memory_matmul 
 // ./5_CUDA_shared_memory_matmul
 
 // Matrix product C = A x B (n x n floats, stored row by row) : each C[i][j]

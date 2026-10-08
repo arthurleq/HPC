@@ -6,7 +6,7 @@
 
 #include <cuda_runtime.h>
 
-// nvcc -O3 -arch=native 4_CUDA_memory_coalescing.cu -o 4_CUDA_memory_coalescing
+// nvcc -O3 -arch=native 4_CUDA_memory_coalescing.cu -o 4_CUDA_memory_coalescing 
 // ./4_CUDA_memory_coalescing
 
 // Most GPU kernels are limited by the memory bandwidth, not by the
